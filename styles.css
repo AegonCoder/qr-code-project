@@ -7,10 +7,11 @@ body{
 
 .QR {
     display: block; /* Cambia el comportamiento de la imagen a bloque */
-    margin-left: auto; 
+    margin-inline-start: auto;
+    margin-inline-end: auto;
     margin-right: auto; 
-    margin-top: 250px;
-    margin-bottom: 250px;
+    margin-top: 15.625rem;
+    margin-bottom: 15.625rem;
     height: auto; 
     width: 300px;
     padding: 16px;
@@ -42,9 +43,8 @@ span {
   text-align: center;
 }
 
-@media (min-width: 1440px) { 
-      .QR { 
-        max-width: 360px;
-        padding: 24px;
-      }
+@media (min-width: 90em) { 
+  .QR {
+    max-width: 22.5rem; 
+  }
 }

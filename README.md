@@ -58,5 +58,5 @@ Forma parte de un reto de aprendizaje inspirado en [Frontend Mentor](https://www
 
 ---
 
-## 📂 Estructura del proyecto / Project Structure
+
 

@@ -1,0 +1,50 @@
+
+body{
+    background-color:hsl(212, 45%, 89%) ; 
+    font-family: 'Outfit', sans-serif;
+    
+}
+
+.QR {
+    display: block; /* Cambia el comportamiento de la imagen a bloque */
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 250px;
+    margin-bottom: 250px;
+    height: auto; 
+    width: 300px;
+    padding: 16px;
+    border-radius: 25px;
+    background-color: white;
+    
+}
+
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+ p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;       
+     
+}
+.QR p{
+    color: rgb(0, 0, 0);
+}
+span {
+  display: block;
+  color: hsl(220, 15%, 55%); /* Gris claro / opaco elegante */
+  font-weight: 400;
+  padding: 0 10px;
+  font-size: 15px;
+  text-align: center;
+}
+
+@media (min-width: 1440px) { 
+      .QR { 
+        max-width: 360px;
+        padding: 24px;
+      }
+}

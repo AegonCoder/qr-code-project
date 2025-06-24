@@ -1,50 +1,48 @@
-
-body{
-    background-color:hsl(212, 45%, 89%) ; 
+body {
+    background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
-    
 }
 
 .QR {
     display: block; /* Cambia el comportamiento de la imagen a bloque */
     margin-inline-start: auto;
     margin-inline-end: auto;
-    margin-right: auto; 
-    margin-top: 15.625rem;
-    margin-bottom: 15.625rem;
-    height: auto; 
-    width: 18.75rem;
-    padding: 16px;
-    border-radius: 25px;
+    margin-right: auto;
+    margin-top: 15.625rem;    /* 250px */
+    margin-bottom: 15.625rem; /* 250px */
+    height: auto;
+    width: 18.75rem;          /* 300px */
+    padding: 1rem;            /* 16px */
+    border-radius: 1.5625rem; /* 25px */
     background-color: white;
-    
 }
-
 
 img {
-  width: 100%;
-  border-radius: 10px;
-}
- p {
-    font-size: 20px;
-    text-align: center;
-    font-weight: 700;       
-     
-}
-.QR p{
-    color: rgb(0, 0, 0);
-}
-span {
-  display: block;
-  color: hsl(220, 15%, 55%); /* Gris claro / opaco elegante */
-  font-weight: 400;
-  padding: 0 10px;
-  font-size: 15px;
-  text-align: center;
+    width: 100%;
+    border-radius: 0.625rem;  /* 10px */
 }
 
-@media (min-width: 90em) { 
-  .QR {
-    max-width: 22.5rem; 
-  }
+p {
+    font-size: 1.25rem;       /* 20px */
+    text-align: center;
+    font-weight: 700;
+}
+
+.QR p {
+    color: rgb(0, 0, 0);
+}
+
+span {
+    display: block;
+    color: hsl(220, 15%, 55%); /* Gris claro / opaco elegante */
+    font-weight: 400;
+    padding: 0 0.625rem;       /* 10px */
+    font-size: 0.9375rem;      /* 15px */
+    text-align: center;
+}
+
+@media (min-width: 90em) { /* 1440px */
+    .QR {
+        max-width: 22.5rem; /* 360px */
+    }
 }
